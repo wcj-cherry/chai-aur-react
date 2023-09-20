@@ -58,7 +58,7 @@ function App() {
           Copy
         </button>
       </div>
-      <div className="flex justify-between text-white">
+      <div className="flex flex-col items-center md:flex-row justify-between text-white">
         <div className="flex items-center">
           <input
             type="range"
