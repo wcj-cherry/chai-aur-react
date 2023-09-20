@@ -38,8 +38,10 @@ function App() {
   }, [password]);
 
   return (
-    <div className="w-full max-w-md mx-auto text-center mx-auto w-full max-w-md px-6 m-4">
-      <h1 className="text-blue-600">Password Generator</h1>
+    <div className="w-full max-w-md mx-auto py-44 w-full px-6">
+      <h1 className="text-blue-600 m-4 text-center text-4xl py-6">
+        Password Generator
+      </h1>
       <div className="flex justify-around shadow rounded-lg overflow-hidden px-4 mb-4 bg-purple-200">
         <input
           type="text"
@@ -56,7 +58,7 @@ function App() {
           Copy
         </button>
       </div>
-      <div className="flex justify-between">
+      <div className="flex justify-between text-white">
         <div className="flex items-center">
           <input
             type="range"
